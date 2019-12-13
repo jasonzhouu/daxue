@@ -1,0 +1,115 @@
+body {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Noto Serif SC', serif;
+}
+
+
+
+a {
+    color: #005599;
+}
+a:hover, a:focus, a:active {
+    /*color: #999;*/
+}
+/*
+ * side nav
+ */
+.uk-nav-side>li>a {
+    position: relative;
+    padding: 4px 24px;
+    text-indent: 5px;
+}
+.uk-nav-side>li.uk-active>a {
+    background-color: #eee;
+    color: #444;
+}
+.sidebar-menu {
+    border-right: 1px solid #eee;
+}
+
+
+
+
+/*
+ * 页首 header
+ */
+.my_body header {
+    background-color: #222;
+    padding: 15px;
+    margin-bottom: 35px;
+}
+/* 左侧内容哦呢*/
+.my_body h2.logo {
+    display: inline-block;
+    color: #fff;
+}
+.my_body header img {
+    width: 130px;
+    margin-top: 2px;
+}
+/*右侧内容*/
+.my_body header h3 {
+    display: inline-block;
+    float: right;
+    color: #bbb;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+
+/*
+ ********************************************************
+ * 内容部分
+ ********************************************************
+ */
+.my_body .uk-container > div > div > div {
+    margin-bottom: 100px;
+    position: relative;
+}
+/* 页首、内容的标题 */
+.my_body h2 {
+    font-size: 24px;
+}
+.my_body h3 {
+    font-size: 18px;
+}
+/*
+ * 内容的开头部分，有个 list。#getstarted 下的副标题。
+ */
+#getstarted p {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    color: #999;
+}
+/* 内容开头的列表*/
+#getstarted .uk-list-striped {
+    /*font-size: 18px;*/
+}
+/*.my_body li {*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+
+
+/*
+ * 页尾 welcome
+ */
+.my_body  .welcome {
+    padding: 20px !important;
+    border: 1px dashed #ddd;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+.my_body  .welcome p {
+    margin-bottom: 0;
+    color: #888;
+    font-weight: 300;
+}
