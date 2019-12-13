@@ -1,5 +1,5 @@
 body {
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Source Han Serif SC';
     font-size: 20px;
     line-height: 2em;
 }
@@ -20,11 +20,13 @@ a:hover, a:focus, a:active {
 /*
  * side nav
  */
+ /* 正常的项 */
 .uk-nav-side>li>a {
     position: relative;
     padding: 4px 24px;
     text-indent: 5px;
 }
+/* 活跃的项*/
 .uk-nav-side>li.uk-active>a {
     background-color: #eee;
     color: #444;
